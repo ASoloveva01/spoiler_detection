@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+</head>
+<body>
+	<header>
+		<h2>Обнаружение спойлеров в рецензиях</h2>
+	</header>
+	{% if prediction == 0%}
+	<h2 style="color:red;">В данной рецензии нет спойлеров</h2>
+	{% elif prediction == 1%}
+	<h2 style="color:blue;">В данной рецензии есть спойлеры</h2>
+	{% endif %}
+</body>
+</html>
