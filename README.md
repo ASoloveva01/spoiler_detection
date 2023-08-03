@@ -12,7 +12,7 @@
 - torch
 - transformers
 ## Как установить и запустить
-```
+```python
 # Клонирование репозитория
 git clone https://github.com/ASoloveva01/spoiler_detection
 cd spoiler_detection
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python app.py
 ```
 ## Использование Docker
-```
+```python
 # Создание образа
 docker build -t spoiler_detection_app .
 
@@ -32,7 +32,7 @@ docker build -t spoiler_detection_app .
 docker run --p 8000:8080 --d --name с1 spoiler_detection_app
 ```
 ## Датасет
-Данные для обучения были спарсены с сайта: https://www.livelib.ru/reviews.
+Данные для обучения были спарсены с сайта: https://www.livelib.ru/reviews.  
 Датасет содержит следующие поля:
 - **review_text:** Содержит текст рецезии.
 - **is_spoiler:** Имеет два значения для обозначения наличия спойлера(1) и его отсутсвия(0).
