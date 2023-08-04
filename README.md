@@ -40,4 +40,6 @@ docker run --p 8000:8080 --d --name с1 spoiler_detection_app
 Датасет содержит следующие поля:
 - **review_text:** Содержит текст рецезии.
 - **is_spoiler:** Имеет два значения для обозначения наличия спойлера(1) и его отсутсвия(0).
-
+Ниже представлены графики, описывающие данные.
+![Иллюстрация к проекту](https://github.com/ASoloveva01/spoiler_detection/raw/main/classes_frequency.png)  
+![Иллюстрация к проекту](https://github.com/ASoloveva01/spoiler_detection/raw/main/words_per_review.png)   
