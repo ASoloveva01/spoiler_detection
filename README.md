@@ -49,7 +49,7 @@ docker run --p 8000:8080 --d --name с1 spoiler_detection_app
             <tr>
                 <th scope="col"></th>
                 <th scope="col">Accuracy</th>
-                <th scope="col">Presicion</th>
+                <th scope="col">Precision</th>
                 <th scope="col">Recall</th>
                 <th scope="col">F1-Score</th>
             </tr>
