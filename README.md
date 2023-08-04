@@ -57,24 +57,24 @@ docker run --p 8000:8080 --d --name с1 spoiler_detection_app
         <tbody>
             <tr>
                 <th scope="row">Train</th>
-                <td>1</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2</td>
+                <td>0,8556</td>
+                <td>0,8664</td>
+                <td>0,8341</td>
+                <td>0,8495</td>
             </tr>
             <tr>
                 <th scope="row">Val</th>
-                <td>1</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2</td>
+                <td>0,6</td>
+                <td>0,6</td>
+                <td>0,4377</td>
+                <td>0,4867</td>
             </tr>
             <tr>
-                 <th scope="row">Test</th>
-                <td>1</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2</td>
+                <th scope="row">Test</th>
+                <td>0,5306</td>
+                <td>0,5306</td>
+                <td>0,12</td>
+                <td>0,2069</td>
             </tr>
         </tbody>
 </table>
