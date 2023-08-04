@@ -39,7 +39,42 @@ docker run --p 8000:8080 --d --name с1 spoiler_detection_app
 Данные для обучения были спарсены с сайта: https://www.livelib.ru/reviews.  
 Датасет содержит следующие поля:
 - **review_text:** Содержит текст рецезии.
-- **is_spoiler:** Имеет два значения для обозначения наличия спойлера(1) и его отсутсвия(0).
+- **is_spoiler:** Имеет два значения для обозначения наличия спойлера(1) и его отсутсвия(0).  
 Ниже представлены графики, описывающие данные.  
 ![Иллюстрация к проекту](https://github.com/ASoloveva01/spoiler_detection/raw/main/classes_frequency.png)  
 ![Иллюстрация к проекту](https://github.com/ASoloveva01/spoiler_detection/raw/main/words_per_review.png)   
+## Результаты
+<table>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Accuracy</th>
+                <th scope="col">Presicion</th>
+                <th scope="col">Recall</th>
+                <th scope="col">F1-Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Train</th>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th scope="row">Val</th>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                 <th scope="row">Test</th>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+</table>
