@@ -29,7 +29,7 @@ python app.py
 docker build -t spoiler_detection_app .
 
 # Запуск контейнера
-docker run --p 8000:8080 --d --name с1 spoiler_detection_app
+docker run -p 8000:8080 -d --name с1 spoiler_detection_app
 ```
 ## Как пользоваться приложением
 Для проверки рецензии на спойлеры введите текст рецензии и нажмите на кнопку "Проверить", далее произойдет перенаправление на страницу с результатом.
